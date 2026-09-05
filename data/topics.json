@@ -20,8 +20,8 @@
     "blurb": "Vortex-dynamics analysis, modeling and optimization of gas-turbine film cooling, including data-driven closures for turbulent heat transport."
   },
   {
-    "id": "turbomachinery-numerics",
-    "name": "Turbomachinery aerodynamics & numerical methods",
-    "blurb": "Solver and method development for engineering PDEs, from harmonic balance for unsteady multi-stage flow to parameterized PINNs for layered elasticity."
+    "id": "others",
+    "name": "Others",
+    "blurb": "Work that sits outside the threads above: unsteady aerodynamics in multi-stage turbomachinery, and parameterized PINNs for layered elasticity."
   }
 ]

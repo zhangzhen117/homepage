@@ -200,7 +200,7 @@
     "ref": "arXiv:2608.09981",
     "year": 2026,
     "type": "preprint",
-    "topic": "turbomachinery-numerics",
+    "topic": "others",
     "links": { "arxiv": "https://arxiv.org/abs/2608.09981", "doi": null, "code": null },
     "bibtex": ""
   },
@@ -212,7 +212,7 @@
     "ref": "29 (6), 1569–1580",
     "year": 2020,
     "type": "journal",
-    "topic": "turbomachinery-numerics",
+    "topic": "others",
     "links": { "arxiv": null, "doi": null, "code": null },
     "bibtex": ""
   },
