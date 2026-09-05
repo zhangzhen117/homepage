@@ -1,0 +1,27 @@
+[
+  {
+    "id": "turbulence-closure",
+    "name": "Turbulence closure & flow inference with PINNs",
+    "blurb": "Learning RANS closures directly from sparse data, and asking how far a learned closure can be pushed before it stops being physics."
+  },
+  {
+    "id": "inverse-control",
+    "name": "Inverse problems, optimal control & adjoint methods",
+    "blurb": "Controlled comparisons between classical adjoint optimization and neural approaches on PDE-constrained inverse and control problems."
+  },
+  {
+    "id": "generative-operator",
+    "name": "Generative & operator learning for turbulent flows",
+    "blurb": "Neural operators are fast but spectrally smooth; generative models can restore the small scales they lose."
+  },
+  {
+    "id": "film-cooling",
+    "name": "Film cooling & turbine heat transfer",
+    "blurb": "Vortex-dynamics analysis, modeling and optimization of gas-turbine film cooling, including data-driven closures for turbulent heat transport."
+  },
+  {
+    "id": "turbomachinery-numerics",
+    "name": "Turbomachinery aerodynamics & numerical methods",
+    "blurb": "Solver and method development for engineering PDEs, from harmonic balance for unsteady multi-stage flow to parameterized PINNs for layered elasticity."
+  }
+]
