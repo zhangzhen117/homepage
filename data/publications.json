@@ -1,0 +1,246 @@
+[
+  {
+    "id": "zhang2026-bluffbody",
+    "title": "Generalizable turbulence closures across bluff-body shapes by PINN-based solver-agnostic training",
+    "authors": ["Z. Zhang", "T. Käufer", "L. Ronglan", "M. S. Triantafyllou", "G. E. Karniadakis"],
+    "venue": "Preprint",
+    "ref": "arXiv:2607.04491",
+    "year": 2026,
+    "type": "preprint",
+    "topic": "turbulence-closure",
+    "links": { "arxiv": "https://arxiv.org/abs/2607.04491", "doi": null, "code": null },
+    "bibtex": ""
+  },
+  {
+    "id": "zhang2026-airfoil",
+    "title": "Effect of turbulence-closure consistency on airfoil identification",
+    "authors": ["Z. Zhang", "G. E. Karniadakis"],
+    "venue": "Computers & Fluids",
+    "ref": "315, 107155",
+    "year": 2026,
+    "type": "journal",
+    "topic": "turbulence-closure",
+    "links": { "arxiv": null, "doi": null, "code": null },
+    "bibtex": ""
+  },
+  {
+    "id": "zhang2026-jfm-cylinder",
+    "title": "Turbulence closure in Reynolds-averaged Navier–Stokes and flow inference around a cylinder using physics-informed neural networks and sparse experimental data",
+    "authors": ["Z. Zhang", "K. Shukla", "Z. Wang", "A. Morales", "T. Käufer", "S. Salauddin", "N. Walters"],
+    "etAl": true,
+    "venue": "Journal of Fluid Mechanics",
+    "ref": "1034, A16",
+    "year": 2026,
+    "type": "journal",
+    "topic": "turbulence-closure",
+    "links": { "arxiv": null, "doi": null, "code": null },
+    "bibtex": ""
+  },
+  {
+    "id": "zhang2025-jcp-boundarylayer",
+    "title": "Physics-informed neural networks with coordinate transformation to solve high Reynolds number boundary layer flows",
+    "authors": ["Z. Zhang", "X. Su", "X. Yuan"],
+    "venue": "Journal of Computational Physics",
+    "ref": "114338",
+    "year": 2025,
+    "type": "journal",
+    "topic": "turbulence-closure",
+    "links": { "arxiv": null, "doi": null, "code": null },
+    "bibtex": ""
+  },
+
+  {
+    "id": "zhang2026-adjoint-vs-pinn",
+    "title": "Adjoint method versus physics-informed neural networks in PDE-constrained inverse problems",
+    "authors": ["Z. Zhang", "A. Alla", "G. E. Karniadakis"],
+    "venue": "Preprint",
+    "ref": "arXiv:2606.12337",
+    "year": 2026,
+    "type": "preprint",
+    "topic": "inverse-control",
+    "links": {
+      "arxiv": "https://arxiv.org/abs/2606.12337",
+      "doi": null,
+      "code": "https://github.com/zhangzhen117/adjoint_PINN_inverse_comparison"
+    },
+    "bibtex": ""
+  },
+  {
+    "id": "zhang2026-optimal-control",
+    "title": "PINNs in PDE-constrained optimal control problems: direct vs indirect methods",
+    "authors": ["Z. Zhang", "S. Liu", "A. Alla", "J. Darbon", "G. E. Karniadakis"],
+    "venue": "Preprint",
+    "ref": "arXiv:2604.04920",
+    "year": 2026,
+    "type": "preprint",
+    "topic": "inverse-control",
+    "links": { "arxiv": "https://arxiv.org/abs/2604.04920", "doi": null, "code": null },
+    "bibtex": ""
+  },
+  {
+    "id": "zhang2022-adjoint-bc",
+    "title": "Adjoint-based boundary condition sensitivity analysis",
+    "authors": ["Z. Zhang", "Y. Mao", "X. Su", "X. Yuan"],
+    "venue": "AIAA Journal",
+    "ref": "60 (6), 3517–3527",
+    "year": 2022,
+    "type": "journal",
+    "topic": "inverse-control",
+    "links": { "arxiv": null, "doi": null, "code": null },
+    "bibtex": ""
+  },
+
+  {
+    "id": "oommen2025-diffusion-operator",
+    "title": "Integrating neural operators with diffusion models improves spectral representation in turbulence modelling",
+    "authors": ["V. Oommen", "A. Bora", "Z. Zhang", "G. E. Karniadakis"],
+    "venue": "Proceedings of the Royal Society A",
+    "ref": "481 (2309), 20240819",
+    "year": 2025,
+    "type": "journal",
+    "topic": "generative-operator",
+    "links": {
+      "arxiv": "https://arxiv.org/abs/2409.08477",
+      "doi": "https://royalsocietypublishing.org/rspa/article/481/2309/20240819/66824/Integrating-neural-operators-with-diffusion-models",
+      "code": null
+    },
+    "bibtex": ""
+  },
+
+  {
+    "id": "hu2025-fullcoverage-swirl",
+    "title": "Cooling performance measurement and layout optimization of full-coverage turbine vane considering the inlet swirl",
+    "authors": ["K. Hu", "Y. Yang", "Z. Zhang", "X. Su", "X. Yuan"],
+    "venue": "International Communications in Heat and Mass Transfer",
+    "ref": "162, 108623",
+    "year": 2025,
+    "type": "journal",
+    "topic": "film-cooling",
+    "links": { "arxiv": null, "doi": null, "code": null },
+    "bibtex": ""
+  },
+  {
+    "id": "zhang2024-datadriven-filmcooling-ii",
+    "title": "Data-driven turbulence modeling for film cooling heat transport, part II: modeling and evaluation",
+    "authors": ["Z. Zhang", "W. Zhang", "X. Su", "X. Yuan"],
+    "venue": "Turbo Expo: Power for Land, Sea, and Air",
+    "ref": "87998, V007T12A026",
+    "year": 2024,
+    "type": "conference",
+    "topic": "film-cooling",
+    "links": { "arxiv": null, "doi": null, "code": null },
+    "bibtex": ""
+  },
+  {
+    "id": "zhang2023-double-expansion",
+    "title": "Optimization of the double-expansion film-cooling hole using CFD",
+    "authors": ["Z. Zhang", "T. Hu", "X. Su", "X. Yuan"],
+    "venue": "Entropy",
+    "ref": "25 (3), 410",
+    "year": 2023,
+    "type": "journal",
+    "topic": "film-cooling",
+    "links": { "arxiv": null, "doi": null, "code": null },
+    "bibtex": ""
+  },
+  {
+    "id": "zhang2022-inversion-learning",
+    "title": "Inversion learning of turbulent thermal diffusion for film cooling",
+    "authors": ["Z. Zhang", "Y. Mao", "X. Su", "X. Yuan"],
+    "venue": "Physics of Fluids",
+    "ref": "34 (3)",
+    "year": 2022,
+    "type": "journal",
+    "topic": "film-cooling",
+    "links": { "arxiv": null, "doi": null, "code": null },
+    "bibtex": ""
+  },
+  {
+    "id": "zhang2021-inhole-interface",
+    "title": "In-hole characteristic interface and film cooling interface model",
+    "authors": ["Z. Zhang", "H. Li", "X. Su", "X. Yuan"],
+    "venue": "Journal of Turbomachinery",
+    "ref": "143 (10), 101012",
+    "year": 2021,
+    "type": "journal",
+    "topic": "film-cooling",
+    "links": { "arxiv": null, "doi": null, "code": null },
+    "bibtex": ""
+  },
+  {
+    "id": "zhang2020-nonuniform-source",
+    "title": "Non-uniform source term model for film cooling with the internal cross flow",
+    "authors": ["Z. Zhang", "Z. Chen", "X. Su", "X. Yuan"],
+    "venue": "Turbo Expo: Power for Land, Sea, and Air",
+    "ref": "84171, V07BT12A014",
+    "year": 2020,
+    "type": "conference",
+    "topic": "film-cooling",
+    "links": { "arxiv": null, "doi": null, "code": null },
+    "bibtex": ""
+  },
+  {
+    "id": "chen2019-vortex-crossflow",
+    "title": "Vortex dynamics based analysis of internal crossflow effect on film cooling performance",
+    "authors": ["Z. Chen", "Z. Zhang", "Y. Li", "X. Su", "X. Yuan"],
+    "venue": "International Journal of Heat and Mass Transfer",
+    "ref": "145, 118757",
+    "year": 2019,
+    "type": "journal",
+    "topic": "film-cooling",
+    "links": { "arxiv": null, "doi": null, "code": null },
+    "bibtex": ""
+  },
+
+  {
+    "id": "lim2026-multilayer-elastic",
+    "title": "Optimizing parameterized physics-informed neural networks to solve multilayered static linear elastic PDEs",
+    "authors": ["J. Lim", "H. Song", "Z. Zhang"],
+    "venue": "Preprint",
+    "ref": "arXiv:2608.09981",
+    "year": 2026,
+    "type": "preprint",
+    "topic": "turbomachinery-numerics",
+    "links": { "arxiv": "https://arxiv.org/abs/2608.09981", "doi": null, "code": null },
+    "bibtex": ""
+  },
+  {
+    "id": "zhang2020-harmonic-balance",
+    "title": "Accuracy and efficiency assessment of harmonic balance method for unsteady flow in multi-stage turbomachinery",
+    "authors": ["Z. Zhang", "C. Ma", "X. Su", "X. Yuan"],
+    "venue": "Journal of Thermal Science",
+    "ref": "29 (6), 1569–1580",
+    "year": 2020,
+    "type": "journal",
+    "topic": "turbomachinery-numerics",
+    "links": { "arxiv": null, "doi": null, "code": null },
+    "bibtex": ""
+  },
+
+  {
+    "id": "talk2025-apsdfd-cylinder",
+    "title": "Flow inference and turbulence closure of flow past a cylinder using PINNs and data-driven RANS equations",
+    "authors": ["Z. Zhang", "S. Khodakarami", "K. Shukla", "Z. Wang", "K. Ahmad", "A. Morales"],
+    "etAl": true,
+    "venue": "78th Annual Meeting of the APS Division of Fluid Dynamics",
+    "ref": null,
+    "year": 2025,
+    "type": "talk",
+    "topic": "turbulence-closure",
+    "links": { "arxiv": null, "doi": null, "code": null },
+    "bibtex": ""
+  },
+  {
+    "id": "talk2025-apsdfd-superres",
+    "title": "Learning local-to-global flow super-resolution with generative AI",
+    "authors": ["S. Khodakarami", "Z. Wang", "Z. Zhang", "K. Shukla", "A. Morales", "S. Salauddin"],
+    "etAl": true,
+    "venue": "78th Annual Meeting of the APS Division of Fluid Dynamics",
+    "ref": null,
+    "year": 2025,
+    "type": "talk",
+    "topic": "generative-operator",
+    "links": { "arxiv": null, "doi": null, "code": null },
+    "bibtex": ""
+  }
+]

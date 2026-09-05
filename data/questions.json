@@ -1,0 +1,38 @@
+[
+  {
+    "id": "q-transfer",
+    "question": "Can a turbulence closure learned on one shape survive on a shape it has never seen?",
+    "answer": "A closure calibrated on a cylinder will reproduce a cylinder beautifully and then fail on an airfoil. I train closures through the solver rather than against a fixed dataset, so the model is never allowed to memorize one geometry's wake. The open question is how much of what transfers is physics and how much is a shared numerical bias.",
+    "papers": ["zhang2026-bluffbody", "zhang2026-airfoil", "zhang2026-jfm-cylinder"]
+  },
+  {
+    "id": "q-adjoint-vs-pinn",
+    "question": "When is a PINN actually better than a classical adjoint solver — and when is it not?",
+    "answer": "Most comparisons in the literature are unfair: the two methods get different formulations, parameterizations, optimizers and regularizers, and the winner is decided by the setup. I put both on a single abstract inverse-problem formulation with everything else held fixed, then measured. The honest answer is that the adjoint method is hard to beat where it applies, and PINNs earn their place where it does not.",
+    "papers": ["zhang2026-adjoint-vs-pinn", "zhang2026-optimal-control", "zhang2022-adjoint-bc"]
+  },
+  {
+    "id": "q-sparse-sensors",
+    "question": "How much of a flow can you reconstruct from a handful of sensors?",
+    "answer": "Experiments give you a few noisy probes, not a field. Physics-informed learning lets the governing equations carry the information from where you measured to where you did not, and simultaneously infer the closure that makes the reconstruction consistent. How sparse you can go before the physics stops constraining the answer is the interesting limit.",
+    "papers": ["zhang2026-jfm-cylinder", "zhang2022-inversion-learning"]
+  },
+  {
+    "id": "q-spectral-blur",
+    "question": "Why do neural operators blur turbulence, and can a diffusion model put the energy back?",
+    "answer": "Neural operators are fast surrogates but they are spectrally biased: they capture the large scales and smooth away the high-frequency content that makes turbulence turbulence. Conditioning a diffusion model on the operator's output restores that missing energy, so you keep the speed and recover the spectrum.",
+    "papers": ["oommen2025-diffusion-operator", "talk2025-apsdfd-superres"]
+  },
+  {
+    "id": "q-high-reynolds",
+    "question": "What breaks a PINN at high Reynolds number?",
+    "answer": "Thin boundary layers put steep gradients in a vanishingly small part of the domain, and a network trained on uniformly sampled collocation points simply never resolves them. Solving in transformed coordinates rescales the layer so the network sees a well-conditioned problem instead of a near-singular one.",
+    "papers": ["zhang2025-jcp-boundarylayer"]
+  },
+  {
+    "id": "q-film-cooling",
+    "question": "Where does the coolant actually go once it leaves the hole?",
+    "answer": "Film cooling is usually modeled at the hole exit, as if the flow inside the hole did not matter. It does: internal crossflow reshapes the vortex structure the jet carries out with it, and that structure decides whether the film stays attached. Getting the in-hole physics into the boundary condition changes the prediction more than tuning the turbulence model does.",
+    "papers": ["chen2019-vortex-crossflow", "zhang2021-inhole-interface", "zhang2020-nonuniform-source"]
+  }
+]
