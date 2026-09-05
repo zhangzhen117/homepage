@@ -132,6 +132,18 @@
     "bibtex": ""
   },
   {
+    "id": "zhang2024-datadriven-filmcooling-i",
+    "title": "Data-driven turbulence modeling for film cooling heat transport, part I: turbulent heat transport property at wide flow conditions",
+    "authors": ["Z. Zhang", "K. Hu", "X. Su", "X. Yuan"],
+    "venue": "Turbo Expo: Power for Land, Sea, and Air",
+    "ref": "87998, V007T12A023",
+    "year": 2024,
+    "type": "conference",
+    "topic": "turbomachinery-film-cooling",
+    "links": { "arxiv": null, "doi": "https://doi.org/10.1115/GT2024-125660", "code": null },
+    "bibtex": ""
+  },
+  {
     "id": "zhang2024-datadriven-filmcooling-ii",
     "title": "Data-driven turbulence modeling for film cooling heat transport, part II: modeling and evaluation",
     "authors": ["Z. Zhang", "W. Zhang", "X. Su", "X. Yuan"],
