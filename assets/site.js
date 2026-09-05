@@ -73,13 +73,14 @@ const renderers = {
       ? `<img class="hero-photo" src="${esc(site.photo)}" alt="${esc(site.name)}"
              width="640" height="640">`
       : "";
+    // Photo first: a right float only rises to the top if it precedes the text.
     node.append(el(`
+      ${photo}
       <div class="hero-text">
         <h1>${esc(site.name)}</h1>
         <p class="role">${esc(site.role)}, ${esc(site.affiliation)}</p>
         <p class="tagline">${esc(site.tagline)}</p>
       </div>
-      ${photo}
     `));
   },
 
