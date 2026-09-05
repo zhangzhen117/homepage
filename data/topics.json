@@ -15,13 +15,13 @@
     "blurb": "Neural operators are fast but spectrally smooth; generative models can restore the small scales they lose."
   },
   {
-    "id": "film-cooling",
-    "name": "Film cooling & turbine heat transfer",
-    "blurb": "Vortex-dynamics analysis, modeling and optimization of gas-turbine film cooling, including data-driven closures for turbulent heat transport."
+    "id": "turbomachinery-film-cooling",
+    "name": "Turbomachinery and film cooling",
+    "blurb": "Gas-turbine work: vortex-dynamics analysis, modeling and optimization of film cooling, data-driven closures for turbulent heat transport, and unsteady flow in multi-stage machines."
   },
   {
     "id": "others",
     "name": "Others",
-    "blurb": "Work that sits outside the threads above: unsteady aerodynamics in multi-stage turbomachinery, and parameterized PINNs for layered elasticity."
+    "blurb": "Work outside the threads above: parameterized PINNs for multilayered linear elasticity."
   }
 ]

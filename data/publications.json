@@ -115,7 +115,7 @@
     "ref": "162, 108623",
     "year": 2025,
     "type": "journal",
-    "topic": "film-cooling",
+    "topic": "turbomachinery-film-cooling",
     "links": { "arxiv": null, "doi": null, "code": null },
     "bibtex": ""
   },
@@ -127,7 +127,7 @@
     "ref": "87998, V007T12A026",
     "year": 2024,
     "type": "conference",
-    "topic": "film-cooling",
+    "topic": "turbomachinery-film-cooling",
     "links": { "arxiv": null, "doi": null, "code": null },
     "bibtex": ""
   },
@@ -139,7 +139,7 @@
     "ref": "25 (3), 410",
     "year": 2023,
     "type": "journal",
-    "topic": "film-cooling",
+    "topic": "turbomachinery-film-cooling",
     "links": { "arxiv": null, "doi": null, "code": null },
     "bibtex": ""
   },
@@ -151,7 +151,7 @@
     "ref": "34 (3)",
     "year": 2022,
     "type": "journal",
-    "topic": "film-cooling",
+    "topic": "turbomachinery-film-cooling",
     "links": { "arxiv": null, "doi": null, "code": null },
     "bibtex": ""
   },
@@ -163,7 +163,7 @@
     "ref": "143 (10), 101012",
     "year": 2021,
     "type": "journal",
-    "topic": "film-cooling",
+    "topic": "turbomachinery-film-cooling",
     "links": { "arxiv": null, "doi": null, "code": null },
     "bibtex": ""
   },
@@ -175,7 +175,7 @@
     "ref": "84171, V07BT12A014",
     "year": 2020,
     "type": "conference",
-    "topic": "film-cooling",
+    "topic": "turbomachinery-film-cooling",
     "links": { "arxiv": null, "doi": null, "code": null },
     "bibtex": ""
   },
@@ -187,7 +187,19 @@
     "ref": "145, 118757",
     "year": 2019,
     "type": "journal",
-    "topic": "film-cooling",
+    "topic": "turbomachinery-film-cooling",
+    "links": { "arxiv": null, "doi": null, "code": null },
+    "bibtex": ""
+  },
+  {
+    "id": "zhang2020-harmonic-balance",
+    "title": "Accuracy and efficiency assessment of harmonic balance method for unsteady flow in multi-stage turbomachinery",
+    "authors": ["Z. Zhang", "C. Ma", "X. Su", "X. Yuan"],
+    "venue": "Journal of Thermal Science",
+    "ref": "29 (6), 1569–1580",
+    "year": 2020,
+    "type": "journal",
+    "topic": "turbomachinery-film-cooling",
     "links": { "arxiv": null, "doi": null, "code": null },
     "bibtex": ""
   },
@@ -204,18 +216,6 @@
     "links": { "arxiv": "https://arxiv.org/abs/2608.09981", "doi": null, "code": null },
     "bibtex": ""
   },
-  {
-    "id": "zhang2020-harmonic-balance",
-    "title": "Accuracy and efficiency assessment of harmonic balance method for unsteady flow in multi-stage turbomachinery",
-    "authors": ["Z. Zhang", "C. Ma", "X. Su", "X. Yuan"],
-    "venue": "Journal of Thermal Science",
-    "ref": "29 (6), 1569–1580",
-    "year": 2020,
-    "type": "journal",
-    "topic": "others",
-    "links": { "arxiv": null, "doi": null, "code": null },
-    "bibtex": ""
-  },
 
   {
     "id": "talk2025-apsdfd-cylinder",
@@ -230,6 +230,7 @@
     "links": { "arxiv": null, "doi": null, "code": null },
     "bibtex": ""
   },
+
   {
     "id": "talk2025-apsdfd-superres",
     "title": "Learning local-to-global flow super-resolution with generative AI",
