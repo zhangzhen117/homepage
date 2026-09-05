@@ -3,7 +3,7 @@
   "selfName": "Z. Zhang",
   "role": "Postdoctoral Research Associate",
   "affiliation": "Division of Applied Mathematics, Brown University",
-  "tagline": "I work on scientific machine learning for fluid mechanics — learning turbulence closures from sparse data, and asking when neural methods genuinely beat the classical ones.",
+  "tagline": "I work on scientific machine learning for fluid mechanics — learning turbulence closures from sparse data and solving the PDE-constrained inverse problems in either classical or neural ways.",
   "bio": [
     "I am a postdoctoral research associate in the Division of Applied Mathematics at Brown University, working with George Em Karniadakis. I received my bachelor's and Ph.D. degrees from the Department of Energy and Power Engineering at Tsinghua University.",
     "My research sits between computational fluid dynamics and machine learning. I build physics-informed methods that infer turbulence closures and flow fields from sparse, noisy experimental data, and I care about the part that is easy to skip: testing whether a learned model generalizes beyond the configuration it was trained on, and comparing new methods against classical adjoint-based optimization under conditions fair enough for the comparison to mean something.",
