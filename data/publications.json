@@ -20,7 +20,7 @@
     "year": 2026,
     "type": "journal",
     "topic": "turbulence-closure",
-    "links": { "arxiv": null, "doi": null, "code": null },
+    "links": { "arxiv": "https://arxiv.org/abs/2511.08341", "doi": null, "code": null },
     "bibtex": ""
   },
   {
@@ -33,7 +33,11 @@
     "year": 2026,
     "type": "journal",
     "topic": "turbulence-closure",
-    "links": { "arxiv": null, "doi": null, "code": null },
+    "links": {
+      "arxiv": null,
+      "doi": "https://www.cambridge.org/core/journals/journal-of-fluid-mechanics/article/turbulence-closure-in-reynoldsaveraged-navierstokes-and-flow-inference-around-a-cylinder-using-physicsinformed-neural-networks-and-sparse-experimental-data/F6810BAF68CD09B519F79ACCDF2D3637",
+      "code": null
+    },
     "bibtex": ""
   },
   {
@@ -45,7 +49,11 @@
     "year": 2025,
     "type": "journal",
     "topic": "turbulence-closure",
-    "links": { "arxiv": null, "doi": null, "code": null },
+    "links": {
+      "arxiv": null,
+      "doi": "https://www.sciencedirect.com/science/article/abs/pii/S0021999125006205",
+      "code": null
+    },
     "bibtex": ""
   },
 
@@ -86,7 +94,7 @@
     "year": 2022,
     "type": "journal",
     "topic": "inverse-control",
-    "links": { "arxiv": null, "doi": null, "code": null },
+    "links": { "arxiv": null, "doi": "https://doi.org/10.2514/1.J061307", "code": null },
     "bibtex": ""
   },
 
@@ -116,7 +124,11 @@
     "year": 2025,
     "type": "journal",
     "topic": "turbomachinery-film-cooling",
-    "links": { "arxiv": null, "doi": null, "code": null },
+    "links": {
+      "arxiv": null,
+      "doi": "https://www.sciencedirect.com/science/article/abs/pii/S073519332500048X",
+      "code": null
+    },
     "bibtex": ""
   },
   {
@@ -140,7 +152,7 @@
     "year": 2023,
     "type": "journal",
     "topic": "turbomachinery-film-cooling",
-    "links": { "arxiv": null, "doi": null, "code": null },
+    "links": { "arxiv": null, "doi": "https://doi.org/10.3390/e25030410", "code": null },
     "bibtex": ""
   },
   {
@@ -152,7 +164,7 @@
     "year": 2022,
     "type": "journal",
     "topic": "turbomachinery-film-cooling",
-    "links": { "arxiv": null, "doi": null, "code": null },
+    "links": { "arxiv": null, "doi": "https://doi.org/10.1063/5.0084237", "code": null },
     "bibtex": ""
   },
   {
@@ -164,7 +176,7 @@
     "year": 2021,
     "type": "journal",
     "topic": "turbomachinery-film-cooling",
-    "links": { "arxiv": null, "doi": null, "code": null },
+    "links": { "arxiv": null, "doi": "https://doi.org/10.1115/1.4050757", "code": null },
     "bibtex": ""
   },
   {
@@ -176,7 +188,7 @@
     "year": 2020,
     "type": "conference",
     "topic": "turbomachinery-film-cooling",
-    "links": { "arxiv": null, "doi": null, "code": null },
+    "links": { "arxiv": null, "doi": "https://doi.org/10.1115/gt2020-14404", "code": null },
     "bibtex": ""
   },
   {
@@ -188,7 +200,11 @@
     "year": 2019,
     "type": "journal",
     "topic": "turbomachinery-film-cooling",
-    "links": { "arxiv": null, "doi": null, "code": null },
+    "links": {
+      "arxiv": null,
+      "doi": "https://doi.org/10.1016/j.ijheatmasstransfer.2019.118757",
+      "code": null
+    },
     "bibtex": ""
   },
   {
@@ -200,7 +216,11 @@
     "year": 2020,
     "type": "journal",
     "topic": "turbomachinery-film-cooling",
-    "links": { "arxiv": null, "doi": null, "code": null },
+    "links": {
+      "arxiv": null,
+      "doi": "https://link.springer.com/article/10.1007/s11630-020-1201-x",
+      "code": null
+    },
     "bibtex": ""
   },
 
