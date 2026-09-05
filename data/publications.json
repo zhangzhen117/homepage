@@ -140,7 +140,11 @@
     "year": 2024,
     "type": "conference",
     "topic": "turbomachinery-film-cooling",
-    "links": { "arxiv": null, "doi": null, "code": null },
+    "links": {
+      "arxiv": null,
+      "doi": "https://asmedigitalcollection.asme.org/GT/proceedings-abstract/GT2024/87998/V007T12A026/1204240",
+      "code": null
+    },
     "bibtex": ""
   },
   {
