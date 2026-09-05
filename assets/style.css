@@ -150,6 +150,15 @@ h3 {
   }
 }
 
+.name-zh {
+  font-size: 0.62em;
+  font-weight: 400;
+  color: var(--muted);
+  letter-spacing: 0.02em;
+  margin-left: 0.15em;
+  white-space: nowrap;
+}
+
 .hero .role { color: var(--muted); margin: 0 0 1.25rem; }
 
 .hero .tagline {

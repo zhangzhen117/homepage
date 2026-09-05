@@ -77,7 +77,7 @@ const renderers = {
     node.append(el(`
       ${photo}
       <div class="hero-text">
-        <h1>${esc(site.name)}</h1>
+        <h1>${esc(site.name)}${site.nameZh ? ` <span class="name-zh">${esc(site.nameZh)}</span>` : ""}</h1>
         <p class="role">${esc(site.role)}, ${esc(site.affiliation)}</p>
         <p class="tagline">${esc(site.tagline)}</p>
       </div>
