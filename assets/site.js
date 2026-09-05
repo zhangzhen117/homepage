@@ -69,10 +69,17 @@ function pubRef(pub, selfName) {
 
 const renderers = {
   hero(node, { site }) {
+    const photo = site.photo
+      ? `<img class="hero-photo" src="${esc(site.photo)}" alt="${esc(site.name)}"
+             width="640" height="640">`
+      : "";
     node.append(el(`
-      <h1>${esc(site.name)}</h1>
-      <p class="role">${esc(site.role)}, ${esc(site.affiliation)}</p>
-      <p class="tagline">${esc(site.tagline)}</p>
+      <div class="hero-text">
+        <h1>${esc(site.name)}</h1>
+        <p class="role">${esc(site.role)}, ${esc(site.affiliation)}</p>
+        <p class="tagline">${esc(site.tagline)}</p>
+      </div>
+      ${photo}
     `));
   },
 
