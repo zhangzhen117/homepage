@@ -9,6 +9,7 @@
     "My research sits between computational fluid dynamics and machine learning. I build physics-informed methods that infer turbulence closures and flow fields from sparse, noisy experimental data, and I care about the part that is easy to skip: testing whether a learned model generalizes beyond the configuration it was trained on, and comparing new methods against classical adjoint-based optimization under conditions fair enough for the comparison to mean something.",
     "Before moving to applied mathematics, I spent several years on gas-turbine film cooling — vortex dynamics, in-hole flow physics, and data-driven models for turbulent heat transport. That work still shapes how I think about closure modeling."
   ],
+  "photo": "assets/photo.jpg",
   "email": "zhen_zhang2@brown.edu",
   "links": {
     "scholar": "https://scholar.google.com/citations?user=QUzLPYgAAAAJ&hl=en",
