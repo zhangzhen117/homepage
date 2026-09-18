@@ -3,7 +3,7 @@
     "id": "q-bluffbody-closure",
     "question": "Building data-driven turbulence closures for bluff bodies",
     "answer": "A closure calibrated on one cylinder reproduces that cylinder beautifully and then fails on the next shape. I train closures through the solver rather than against a fixed dataset, so the model never gets to memorize one geometry's wake, and I check what survives the transfer. The same consistency question carries over to a streamlined body, which is where the airfoil study picks it up.",
-    "papers": ["zhang2026-bluffbody", "zhang2026-jfm-cylinder", "zhang2026-airfoil"]
+    "papers": ["zhang2026-wellposedness", "zhang2026-bluffbody", "zhang2026-jfm-cylinder", "zhang2026-airfoil"]
   },
   {
     "id": "q-pinn-inverse",
