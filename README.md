@@ -34,6 +34,8 @@ To feature a paper as a research question, add its `id` to an entry in
 any number of questions.
 
 Bio, news, profile links and the software list live in `data/site.json`.
+News items carry a `"YYYY-MM"` date; the home page shows only those from the
+last 12 months, so old entries can stay in the file.
 
 ## Checking and previewing
 

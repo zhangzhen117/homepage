@@ -20,28 +20,24 @@
   },
   "news": [
     {
-      "date": "2026",
+      "date": "2026-09",
       "text": "Preprint: <em>Well-posedness of neural turbulence closures and tangent dissipation</em>."
     },
     {
-      "date": "2026",
+      "date": "2026-07",
       "text": "Preprint: <em>Generalizable turbulence closures across bluff-body shapes by PINN-based solver-agnostic training</em>."
     },
     {
-      "date": "2026",
-      "text": "<em>Turbulence closure in RANS and flow inference around a cylinder using PINNs and sparse experimental data</em> appears in the <em>Journal of Fluid Mechanics</em>."
-    },
-    {
-      "date": "2026",
+      "date": "2026-05",
       "text": "<em>Effect of turbulence-closure consistency on airfoil identification</em> appears in <em>Computers &amp; Fluids</em>."
     },
     {
-      "date": "2025",
-      "text": "Presented two talks at the 78th Annual Meeting of the APS Division of Fluid Dynamics."
+      "date": "2026-04",
+      "text": "<em>Turbulence closure in RANS and flow inference around a cylinder using PINNs and sparse experimental data</em> appears in the <em>Journal of Fluid Mechanics</em>."
     },
     {
-      "date": "2025",
-      "text": "<em>PINNs with coordinate transformation for high Reynolds number boundary layer flows</em> appears in the <em>Journal of Computational Physics</em>."
+      "date": "2025-11",
+      "text": "Presented two talks at the 78th Annual Meeting of the APS Division of Fluid Dynamics."
     }
   ],
   "software": [

@@ -147,9 +147,17 @@ const renderers = {
     }).join("")));
   },
 
+  // Shows only items from the last 12 months. Dates are "YYYY-MM".
   news(node, { site }) {
-    node.append(el(`<ul class="news">${site.news.map((n) => `
-      <li><span class="news-date">${esc(n.date)}</span><span>${n.text}</span></li>
+    const cutoff = new Date();
+    cutoff.setMonth(cutoff.getMonth() - 12);
+    const fmt = new Intl.DateTimeFormat("en", { month: "short", year: "numeric" });
+    const items = site.news
+      .map((n) => ({ ...n, when: new Date(`${n.date}-01T00:00:00`) }))
+      .filter((n) => n.when >= cutoff)
+      .sort((a, b) => b.when - a.when);
+    node.append(el(`<ul class="news">${items.map((n) => `
+      <li><span class="news-date">${esc(fmt.format(n.when))}</span><span>${n.text}</span></li>
     `).join("")}</ul>`));
   },
 
