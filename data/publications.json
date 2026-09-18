@@ -1,5 +1,17 @@
 [
   {
+    "id": "zhang2026-wellposedness",
+    "title": "Well-posedness of neural turbulence closures and tangent dissipation",
+    "authors": ["Z. Zhang", "G. E. Karniadakis"],
+    "venue": "Preprint",
+    "ref": "arXiv:2609.19647",
+    "year": 2026,
+    "type": "preprint",
+    "topic": "turbulence-closure",
+    "links": { "arxiv": "https://arxiv.org/abs/2609.19647", "doi": null, "code": null },
+    "bibtex": ""
+  },
+  {
     "id": "zhang2026-bluffbody",
     "title": "Generalizable turbulence closures across bluff-body shapes by PINN-based solver-agnostic training",
     "authors": ["Z. Zhang", "T. Käufer", "L. Ronglan", "M. S. Triantafyllou", "G. E. Karniadakis"],

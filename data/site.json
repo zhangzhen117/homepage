@@ -21,6 +21,10 @@
   "news": [
     {
       "date": "2026",
+      "text": "Preprint: <em>Well-posedness of neural turbulence closures and tangent dissipation</em>."
+    },
+    {
+      "date": "2026",
       "text": "Preprint: <em>Generalizable turbulence closures across bluff-body shapes by PINN-based solver-agnostic training</em>."
     },
     {
